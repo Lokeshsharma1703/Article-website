@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+body {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    font-weight: bold;
+    height: 2px;
+    color: black;
+    border: 2px solid black;
+    width: 100%;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.mt-4 {
+    /* width: 50%; */
+    box-shadow: 5px 5px 10px gray;
+    background-color: aquamarine;
+    padding: 20px 50px;
+    max-width: 80%;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mb-2 {
+    font-size: .8rem;
+}
+
+.btn {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 5px rgb(126, 123, 123);
+    position: fixed;
+    top: 30px;
+    left: 20px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}

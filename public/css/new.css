@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    margin: 20px 0;
+}
